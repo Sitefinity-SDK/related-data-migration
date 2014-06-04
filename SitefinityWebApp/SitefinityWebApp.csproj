@@ -283,11 +283,6 @@
       <HintPath>packages\Telerik.DataAccess.Core.2014.1.403.2\lib\net40\Telerik.OpenAccess.40.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.Config, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.OpenAccess.Config.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Telerik.OpenAccess.DataAdapter">
       <HintPath>packages\Telerik.Sitefinity.Octopus.2014.1.507.1\lib\net40\Telerik.OpenAccess.DataAdapter.dll</HintPath>
       <Private>True</Private>
@@ -440,11 +435,6 @@
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.7.0.5107.0\lib\net40\Telerik.Sitefinity.Services.Comments.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.Resources, Version=4.0.810.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Sitefinity.Resources.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Comments.Impl">
       <HintPath>packages\Telerik.Sitefinity.ServicesImpl.7.0.5107.0\lib\net40\Telerik.Sitefinity.Services.Comments.Impl.dll</HintPath>
       <Private>True</Private>
@@ -521,11 +511,6 @@
       <HintPath>packages\Telerik.Web.UI.2014.1.403.40\lib\net40\Telerik.Web.UI.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Web.Mvc">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Telerik.Web.UI.Skins">
       <HintPath>packages\Telerik.Web.UI.2014.1.403.40\lib\net40\Telerik.Web.UI.Skins.dll</HintPath>
       <Private>True</Private>
@@ -592,6 +577,7 @@
     <Compile Include="RelatedDataMigration.aspx.designer.cs">
       <DependentUpon>RelatedDataMigration.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SampleUtilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
@@ -729,12 +715,6 @@
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Telerik.Sitefinity.Samples.Common\Telerik.Sitefinity.Samples.Common.csproj">
-      <Project>{cf03fb62-a8cc-42b4-9c81-87920c530d74}</Project>
-      <Name>Telerik.Sitefinity.Samples.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

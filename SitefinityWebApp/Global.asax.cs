@@ -4,13 +4,16 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
-using Telerik.Sitefinity.Samples.Common;
+using Telerik.Sitefinity.Configuration;
+using Telerik.Sitefinity.Data;
+using Telerik.Sitefinity.Security;
+using Telerik.Sitefinity.Security.Configuration;
+using Telerik.Sitefinity.Security.Model;
 
 namespace SitefinityWebApp
 {
     public class Global : System.Web.HttpApplication
     {
-
         protected void Application_Start(object sender, EventArgs e)
         {
             Telerik.Sitefinity.Abstractions.Bootstrapper.Initialized += new EventHandler<Telerik.Sitefinity.Data.ExecutedEventArgs>(Bootstrapper_Initialized);
