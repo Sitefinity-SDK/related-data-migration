@@ -419,6 +419,9 @@
       <HintPath>packages\Telerik.Sitefinity.Content.7.0.5107.0\lib\net40\Telerik.Sitefinity.RecurrentRules.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Telerik.Sitefinity.Resources">
+      <HintPath>packages\Telerik.Sitefinity.Core.7.0.5107.0\lib\net40\Telerik.Sitefinity.Resources.dll</HintPath>
+    </Reference>
     <Reference Include="Telerik.Sitefinity.SalesForceConnector">
       <HintPath>packages\Telerik.Sitefinity.SalesForceConnector.7.0.5107.0\lib\net40\Telerik.Sitefinity.SalesForceConnector.dll</HintPath>
       <Private>True</Private>
