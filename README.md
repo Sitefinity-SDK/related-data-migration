@@ -41,3 +41,8 @@ To login to Sitefinity backend, use the following credentials:
 **Username:** admin
 
 **Password:** password
+
+### Additional resources
+
+[Migrate related data with the Migration Assistant](http://www.sitefinity.com/documentation/documentationarticles/related-data-migration)
+
