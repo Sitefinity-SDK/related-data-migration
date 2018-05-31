@@ -1,10 +1,7 @@
-related-data-migration
+Related data migration
 ======================
 
-### This repository is not automatically upgraded to latest Sitefintiy version. The repository is monitored for pull requests and fixes. The latest official version of Sitefinity that supports this sample is 8.2. Be aware that using a higher version could cause unexpected behavior. If you successfully upgrade the example to a greater version, please share your work with the community by submitting your changes via pull request.
-
-[![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.RelatedDataMigration.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.RelatedDataMigration.CI/)
-
+### Latest supported version: Sitefinity CMS 11.0.6700.0
 
 As of Sitefinity CMS version 7.0, you can use the Related data and Related media fields to create one-to-one or one-to-many relations between Sitefinity CMS content types including: dynamic content, News, Events, Blogs, Blog posts, Pages, and others. Sitefinity CMS makes it easy to display all related items on the frontend. For more information, see [Content relations](http://www.sitefinity.com/documentation/documentationarticles/related-data-field).
 
@@ -13,11 +10,9 @@ NOTE: You can also register external scripts that you used with Guid or Guid arr
 
 ### Requirements
 
-* Sitefinity CMS license
-* Sitefinity CMS version 7.0.5107 and newer
-* .NET Framework 4
-* Visual Studio 2012
-* Microsoft SQL Server 2008R2 or later versions
+You must have a Sitefinity CMS license
+
+For more information, see the [System requirements](https://docs.sitefinity.com/system-requirements) for the  respective Sitefinity CMS version.
 
 ### Prerequisites
 
